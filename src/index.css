@@ -1,4 +1,14 @@
+:root{
+  --bg-gray: #edf2f4;
+  --white: #fff;
+  --gray: #8d99ae;
+  --purple: #2b2d42;
+  --pink-secondary: #ef233c;
+  --pink-primary: #d90429;
+}
+
 body {
+  background: var(--bg-gray);
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',

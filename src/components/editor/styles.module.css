@@ -1,0 +1,13 @@
+.editor{
+    background: var(--white);
+    border-radius: 5px;
+    padding: 10px;
+}
+.editorPreview{
+    pointer-events: none;
+    margin: 25px 0 5px 0
+}
+
+.toolbarHidden{
+    display: none;
+}
