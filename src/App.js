@@ -1,5 +1,4 @@
 import { Route, Routes } from "react-router-dom";
-import "./App.css";
 import { ProtectedRoute } from "./components/routing/ProtectedRoute";
 import { AuthProvider } from "./hooks/useAuth";
 import {
@@ -8,7 +7,7 @@ import {
   MyNewsPage,
   SignInPage,
   SignUpPage,
-} from "./views";
+} from "./pages";
 
 function App() {
   return (
